@@ -49,3 +49,13 @@ val5.push("monkey");
 console.log(val5);
 
 // だいたいconstでやる
+
+/**
+ * テンプレート文字列
+ */
+const name = "tama";
+const age = 22;
+// 「私の名前はtamaです．年齢は22歳です．」
+// 従来の方法
+const message1 = "私の名前は" + name + "です．年齢は" + age + "です．";
+console.log(message1);
